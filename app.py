@@ -105,10 +105,10 @@ def load_banana_model():
 banana_model = load_banana_model()
 
 banana_classes = [
-    'overripe',
-    'ripe',
-    'rotten',
-    'unripe'
+    'Terlalu Matang',
+    'Matang',
+    'Busuk',
+    'Belum Matang'
 ]
 
 
@@ -127,9 +127,9 @@ def load_tomato_model():
 tomato_model = load_tomato_model()
 
 tomato_classes = [
-    'reject',
-    'ripe',
-    'unripe'
+    'Tidak Layak',
+    'Matang',
+    'Belum Matang'
 ]
 
 
@@ -224,7 +224,7 @@ if image_source is not None:
         )
 
         st.subheader(
-            "Hasil Prediksi Pisang"
+            "Hasil Prediksi Pisang 🍌"
         )
 
         # confidence threshold
@@ -273,7 +273,7 @@ if image_source is not None:
         )
 
         st.subheader(
-            "Hasil Prediksi Tomat"
+            "Hasil Prediksi Tomat 🍅"
         )
 
         # confidence threshold
