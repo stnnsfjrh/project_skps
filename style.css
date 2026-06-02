@@ -1,0 +1,97 @@
+/* ==========================================
+   CUSTOM STYLE STREAMLIT APP
+   ========================================== */
+
+.stApp {
+    background: linear-gradient(135deg, #f8fff4 0%, #fff8e7 50%, #fff1f1 100%);
+}
+
+.main-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 800;
+    color: #2f3e2f;
+    margin-bottom: 8px;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 18px;
+    color: #5f6f52;
+    margin-bottom: 30px;
+}
+
+.custom-card {
+    background-color: rgba(255, 255, 255, 0.90);
+    padding: 24px;
+    border-radius: 22px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    border: 1px solid rgba(255,255,255,0.7);
+    margin-bottom: 20px;
+}
+
+.result-card {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 22px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+    text-align: center;
+    margin-top: 12px;
+}
+
+.result-label {
+    font-size: 32px;
+    font-weight: 800;
+    color: #245c36;
+    margin-bottom: 8px;
+}
+
+.confidence-text {
+    font-size: 20px;
+    font-weight: 600;
+    color: #555;
+}
+
+.warning-card {
+    background-color: #fff4f4;
+    padding: 20px;
+    border-radius: 18px;
+    border-left: 6px solid #e74c3c;
+    color: #7d2c2c;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.info-box {
+    background-color: #f4fff7;
+    padding: 16px;
+    border-radius: 16px;
+    border-left: 5px solid #44a05b;
+    font-size: 15px;
+    color: #34513a;
+}
+
+div[data-testid="stSidebar"] {
+    background-color: #f7fff1;
+}
+
+.sidebar-title {
+    font-size: 24px;
+    font-weight: 800;
+    color: #2f3e2f;
+    margin-bottom: 4px;
+}
+
+.sidebar-caption {
+    font-size: 14px;
+    color: #61715c;
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    color: #777;
+    margin-top: 40px;
+    font-size: 14px;
+}
