@@ -20,7 +20,7 @@ from tensorflow.keras.layers import (
 # ==========================================
 st.set_page_config(
     page_title="Klasifikasi Kematangan Buah",
-    page_icon="🍌""🍎",
+    page_icon="🍌🍅",
     layout="wide"
 )
 
@@ -136,18 +136,18 @@ tomato_classes = [
 # ==========================================
 # SIDEBAR
 # ==========================================
-st.sidebar.title("Pilih Model")
+st.sidebar.title("🍌🍅Pilih Model")
 
 selected_model = st.sidebar.selectbox(
     "Jenis Buah",
-    ["Pisang", "Tomat"]
+    ["🍅Pisang", "🍅Tomat"]
 )
 
 
 # ==========================================
 # TITLE
 # ==========================================
-st.title("Klasifikasi Kematangan Buah")
+st.title("🍌🍅Klasifikasi Kematangan Buah")
 
 
 # ==========================================
@@ -200,7 +200,7 @@ if image_source is not None:
     # ======================================
     # MODEL PISANG
     # ======================================
-    if selected_model == "Pisang":
+    if selected_model == "🍌Pisang":
 
         # preprocessing sesuai training
         img_array = img_array / 255.0
