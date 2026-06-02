@@ -140,7 +140,7 @@ st.sidebar.title("🍌🍅Pilih Model")
 
 selected_model = st.sidebar.selectbox(
     "Jenis Buah",
-    ["🍅Pisang", "🍅Tomat"]
+    ["🍌Pisang", "🍅Tomat"]
 )
 
 
